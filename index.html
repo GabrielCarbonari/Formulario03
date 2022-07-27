@@ -48,11 +48,13 @@
         <fieldset>
           <legend>Informações do mentor</legend>
           <div class="input-wrapper">
-            <label for="event-title"
+            <label for="event-category"
               >Selecione quem foi o seu mentor</label
-            >
-            <input type="text" id="mentor" required />
-          </div>
+            ><select id="event-category">
+              <option value="live">Gabriel</option>
+              <option value="podcast">Miguel</option>
+              <option value="mentorship">Rafael</option>
+            </select>
           <div class="input-wrapper">
             <label for="event-link">Feedback sobre o mentor</label>
             <textarea id="event-info" required></textarea>
